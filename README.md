@@ -26,18 +26,6 @@ Python 3.8+ is required to run code from this repo.
     $ make venv
     ```
 
-1. This DVC project comes with a preconfigured DVC
-[remote storage](https://dvc.org/doc/commands-reference/remote) on S3 that will be used for storing all data versioned by DVC
-
-    To be able to push to the remote, we need to authenticate with the right credentials. You can configure them quickly
-    by first copying the .env file you received to the root of the repository and then calling
-
-    ```console
-    $ make s3_credentials
-    ```
-
-    This will create a `config.local` file in your `.dvc` directory with locally stored secrets (the file will be ignored by git) 
-
 1. (Optional) Connect your account to DVC Studio for live experiment sharing
 
     The worskhop host should invite you to a team in DVC Studio using the GitHub-associated e-mail address. You can then simply use your GitHub account to log in to Studio.
