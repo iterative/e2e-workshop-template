@@ -1,4 +1,4 @@
-# MLOps World 2024 - End2End ML pipeline
+# Workshop - End2End GitOps ML pipeline
 
 This is a Computer Vision (CV) project that solves the problem of segmenting out 
 swimming pools from satellite images. 
@@ -16,8 +16,8 @@ Python 3.8+ is required to run code from this repo.
 1. Clone the repository locally
 
     ```console
-    $ git clone https://github.com/iterative/mlops-world-e2e
-    $ cd mlops-world-e2e
+    $ git clone https://github.com/iterative/workshop-e2e-gitops-ml
+    $ cd workshop-e2e-gitops-ml
     ```
 
 1. Now let's install the requirements and create a virual environment. You can use the included makefile and simply call
